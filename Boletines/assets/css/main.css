@@ -1,0 +1,236 @@
+
+/* degradado naranja:  #ffb75e
+;
+*/
+html{
+  font-family: 'Roboto', sans-serif;
+}
+
+a{
+  /*text-decoration: line-through;
+  text-decoration: overline;*/
+  text-decoration: none;
+  color: #F37335
+}
+
+a:hover{
+opacity: 0.8;
+
+}
+
+a:visited{
+
+}
+
+/*a:active{
+  background: yellow;
+}*/
+
+a:focus{
+  background: yellow;
+}
+ 
+.title{
+  /*text-transform: capitalize;*/
+  text-transform: uppercase;
+  /*text-decoration: overline;*/
+  text-align: center;
+
+
+}
+.container{
+  background-color: #ffb75e; /*Respaldo*/
+  background: #ffb75e; /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #ffb75e, #ed8f03); 
+  background: linear-gradient(to right, #ffb75e, #ed8f03); 
+  height: 100vh;
+/*width: 50vw;*/
+  display: flex;  /* Los nodos dentro del contenedor adoptan la posicion. */
+  align-items: center;   /* Estas propieades colocan el elemnetoo en el centro. Cabe aclarar que estas propiedades a vees se intercambian ( horizonta y vertical) todo depende  de la direccion del layout */
+  justify-content: center;
+}
+
+td{
+ 	border: solid 2px;
+  }
+
+.content{
+  max-width: 960px;
+  width: 100%;
+  height: 80vh;
+  background-color: white;
+  /*box-shadow: 0 3px 6px #000 ;  /*Sombras  diferenciaHorizontal diferenciaVertical desenfoque amplitud color*/
+  /*Se ignoro el valor de la amplitud. Por eso solo hay 4 elementos*/
+  /*A continuacion para el ejemplo se le agregara la amplitud*/
+  /*box-shadow: 0 3px 6px 10 px #000;*/
+  /* Con valores negatico le cambias la orientacion hcia donde quires que le cambie el efecto]*/
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+  border-radius:4px ; /* Borde redondeado*/
+  position: relative;
+  padding:1.8em ;
+  /*overflow: hidden ; /*Lo esconde*/
+  overflow: scroll; /* con scroll*/
+  /*overflow-y: scroll;er
+  overflow-x: hidden;*/
+}
+
+.content{
+    padding: 1em;
+  }
+  td{
+    display: block;
+    width: 100%;
+  }
+  td:nth-of-type(1){
+    /*background-color: red;*/
+    font-size: 1.5em;
+    font-weight: bold;
+    /*color: #FFB75E;*/
+
+  }
+  th{
+    display: none;
+  }
+
+
+.actions{
+  position: absolute;
+  top: 1em;
+  right: 1em;
+}
+
+
+.close{
+  height: 40px;
+  width: 40px;
+  color: white;
+  border-radius: 50%;
+  background-color: #FFB75E ;
+  display: inline-block ;
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23); /* sombra*/
+  font-weight: 300; /* fuente mas delgada*/
+  cursor: pointer; /* cursor con puntero*/
+  display: flex; /* para centrar*/
+  align-items: center;
+  justify-content: center ; /* para centrar tanto H como V*/
+}
+.paragraph{
+  line-height: 1.5em; /* altura de la linea*/
+  font-weight: 1540 /*Grosor*/
+}
+
+.table{
+  width: 100%; /* todo el ancho*/
+  border-spacing: 0 ; /* Espacio de cada una de las lineas de los bprdes de la taba */
+  
+}
+
+
+.table td, .table th{
+  padding: 1em ; /* mas espacio*/
+  text-align: left;
+}
+
+.table tr:nth-child(even){
+  background-color: #FFB75E;
+
+}
+
+.fa-star{
+  color: #181818;
+}
+
+
+
+/* bordes*/
+.title-item{
+ /* border-top-style: solid;*/
+  /*border-bottom-style: solid;
+  border-width: 2px; /* grosor del borde*/
+  /*border-color: #ffb75e ; /* color del borde*/
+  /*border-top-style: dashed; /* linea punteada*/
+ /*border-top-color: black /* Color por cada lado*/
+  padding-bottom: 1em;
+  border-bottom: solid 2px #FFB75E; /*Shorthamd properties*/
+  /*box-shadow: 0 3px 6px #000 ;  /*Sombras  diferenciaHorizontal diferenciaVertical desenfoque amplitud color*/
+ /* padding: arriba derecha abajo izquierda;*/
+ /*padding: arriba/abajoj derecha/izquierda*/;  /*Shorthamd properties*/
+   font-size: 2em;
+}
+
+
+.position{
+  background-color: #FFB75E;
+  color: white;
+  padding:0.5em;
+  /*Ahora mostrare las propiedades para redondear*/
+  /*border-top-left-radius: 2em;
+  border-top-right-radius: 2em;
+  border-top-left-radius: 2em;
+  border-top-right-radius: 2em;*/
+  /* o tambien usando las shorthamd properties*/
+  border-radius:4px ;
+  margin-right: 0.5em;
+
+}
+
+
+.address{
+  font-weight: bold;
+  color: #FFB75E ;
+  font-size:1.1em ;
+  margin-top: 2em;
+  display: inline-block;
+
+}
+
+.main-image{
+  float: left;
+  margin-right: 1em;
+  height: 200px;
+
+}
+
+img{
+  max-width: 100%;
+}
+/*@media print {
+
+}   Para cuando la pagina vaya a ser impresa*/
+
+/*@media (max-width: 500px) {
+
+  } solo para pantallas con ancho de 500px*/
+
+
+@media (min-width: 900px) {
+th{
+  display: table-cell ;
+}
+td{
+  width: auto;
+    display: table-cell ;
+
+}
+td:nth-of-type(1){
+  font-size:1em ;
+}
+  .content{
+    padding: 1.8em;
+  }
+}
+}
+
+@media (max-width: 600px) {
+  
+}
+/* Especificidad
+1 important
+2 Atributo style
+
+Selectres
+1 Selectores por ID
+2 Selectres de clase, atributos y pseudo clases
+3 Selectores de tipo y pseudo elementos o etiquetas
+  Recuerda:  entre as especifico sea, sera el ganador;
+*/
