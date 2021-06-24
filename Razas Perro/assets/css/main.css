@@ -1,7 +1,21 @@
-.container{
-background-color: blue;
+
+body{
+	background-color: #7FFFD4
+
 }
 
-p{
-	color: red;
+.container{
+display: flex;
+height: 800px;
+width: 1000px;
+justify-content: center;
+align-items: center;
 }
+
+.content{
+	align-items: center;
+	background-color: #F0F8FF;
+}
+
+
+
