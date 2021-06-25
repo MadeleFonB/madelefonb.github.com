@@ -1,21 +1,180 @@
 
-body{
-	background-color: #7FFFD4
 
+
+.containerm{
+background-color: #4bd8fb;
+background: #4bd8fb;
+background: -webkit-linear-gradient(to right, #4bd8fb, #0491b4);
+background: linear-gradient(to right,  #4bd8fb, #0491b4);
+height: 100vh;/*Pilas el vh es muy importante:Recordar*/
+display: flex;
+align-items: center;
+justify-content: center;
+}
+
+.contentm{
+	max-width: 960px;
+	max-height: 500px;
+	width: 100%;
+	height: 100%;
+	background-color: #F0F8FF;
+	/*box-shadow : diferenciaHorizontal diferenciaVertical desenfoque amplitud color*/
+	box-shadow: 0 3px 6px #000;	
+	/*	box-shadow: 0 3px 6px rgba(0,0,0,0,16), 0 3px 6px rgba(0,0,0,0,23);
+*/
+	border-radius: 4px;
+}
+
+@font-face{
+
+}
+
+
+h2{
+font-family: 'Barlow Semi Condensed', sans-serif;}
+
+
+p{
+font-family: 'Markazi Text', serif;
+}
+
+.encabezado{
+}
+
+.paragraph{
+	line-height: 1.8em; /*Altura de la linea*/
+	font-weight: 200;/* Grosor*/
+}
+
+.title-item{
+	/*border-bottom-style: solid; Linea de abajo del titulo*/
+	
+
+
+	/*border-width: 2px;  /*Grosor de l linea*/
+	/*border-color: #4bd8fb;
+	/*border-top-style: dashed; Linea punteada*/
+	/*padding-bottom: : 1em; /*Espacio d el linea de encabezado*/
+	/*box-shadow: 0 3px 6px rgba(0,0,0,0,16), 0 3px 6px rgba(0,0,0,0,23);*/
+	padding-bottom: 1em; 
+	border-bottom:  solid 2px #4bd8fb ;  /*Shorthamd properties*/
+	/*box-shadow: 0 3px 6px #000;*/
+
+}
+
+.position{
+	background-color: #F0F8FF ;
+	color: #4bd8fb;
+	padding: 10px;
+	border-radius: 4px;
 }
 
 .container{
+background-color: #4bd8fb;
+background: #4bd8fb;
+background: -webkit-linear-gradient(to right, #4bd8fb, #0491b4);
+background: linear-gradient(to right,  #4bd8fb, #0491b4);
+height: 100vh;/*Pilas el vh es muy importante:Recordar*/
 display: flex;
-height: 800px;
-width: 1000px;
-justify-content: center;
 align-items: center;
+justify-content: center;
+
 }
 
 .content{
-	align-items: center;
+	max-width: 1000px;
+	max-height: 930px;
+	width: 100%;
+	height: 100%;
 	background-color: #F0F8FF;
+	/*box-shadow : diferenciaHorizontal diferenciaVertical desenfoque amplitud color*/
+	box-shadow: 0 3px 6px #000;	
+	/*	box-shadow: 0 3px 6px rgba(0,0,0,0,16), 0 3px 6px rgba(0,0,0,0,23);
+*/
+	border-radius: 4px;
 }
 
+.encabezado-Index{
+	background-color: #4bd8fb;
+	background: #4bd8fb;
+	background: -webkit-linear-gradient(to right, #4bd8fb, #0491b4);
+	background: linear-gradient(to right,  #4bd8fb, #0491b4);
+	padding-bottom: 1em; 
+	border-bottom:  solid 2px #4bd8fb ;
+	padding: 16px;
+
+}
+
+.title-Index{
+font-family: 'Titan One', cursive;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color:#0491b4;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover:not(.active) {
+    background-color: #111;
+}
+
+.active {
+    background-color: #4CAF50;
+}
+.barra-Index{
+	/*width: 50%;
+	padding-right:  1em;
+	border-radius: 4px;*/
+	float: right;
+	margin: 3em auto 0em;
+
+}
+
+.titulo {
+    tamaño de fuente :  40 px ;
+    familia de fuentes :  'Dancing Script' , cursiva;
+    margen inferior :  40 px ;
+    color :  # fff ;
+}
+
+.subtítulo {
+    margen :  0 ;
+    color :  # 000 ;
+    pantalla : en línea;
+    tamaño de fuente :  50 px ;
+    peso de fuente :  500 ;
+    transformación de texto : mayúsculas;
+}
+
+.sabor {
+    color :  # fff ;
+    margen :  7 px  0 ;
+    tamaño de fuente :  50 px ;
+    peso de fuente :  600 ;
+    texto-sombra :  2 px  2 px  1 px  rgba ( 0 , 0 , 0 , 0.7 );
+    familia de fuentes :  'Dancing Script' , cursiva;
+    margen superior :  0 ;
+}
+
+.linea-division {
+    ancho :  80 % ;
+    altura :  2 px ;
+    color de fondo :  # 36221c ;
+} 
 
 
