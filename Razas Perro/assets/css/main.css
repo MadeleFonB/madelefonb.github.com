@@ -1,5 +1,40 @@
 
+.container{
+background-color: #4bd8fb;
+background: #4bd8fb;
+background: -webkit-linear-gradient(to right, #4bd8fb, #0491b4);
+background: linear-gradient(to right,  #4bd8fb, #0491b4);
+/*background-image: url(./image/fond1.jpg);*/
+height: 100vh;/*Pilas el vh es muy importante:Recordar*/
+display: flex;
+align-items: center;
+justify-content: center;
 
+}
+
+.content{
+	max-width: 1000px;
+	max-height: 930px;
+	width: 100%;
+	height: 100%;
+	background-color: #F0F8FF;
+	/*box-shadow : diferenciaHorizontal diferenciaVertical desenfoque amplitud color*/
+	box-shadow: 0 3px 6px #000;	
+	/*	box-shadow: 0 3px 6px rgba(0,0,0,0,16), 0 3px 6px rgba(0,0,0,0,23);
+*/
+	border-radius: 4px;
+}
+
+.imagenesIndex{
+	max-width: 1000px;
+	max-height: 530px;
+	height: 50%;
+	width: 100%;
+	background-color: #F0F8FF;
+	box-shadow: 0 3px 6px #000;	
+	border-radius: 4px;
+	padding-top: 1em;
+}
 
 .containerm{
 background-color: #4bd8fb;
@@ -48,9 +83,6 @@ font-family: 'Markazi Text', serif;
 
 .title-item{
 	/*border-bottom-style: solid; Linea de abajo del titulo*/
-	
-
-
 	/*border-width: 2px;  /*Grosor de l linea*/
 	/*border-color: #4bd8fb;
 	/*border-top-style: dashed; Linea punteada*/
@@ -69,30 +101,6 @@ font-family: 'Markazi Text', serif;
 	border-radius: 4px;
 }
 
-.container{
-background-color: #4bd8fb;
-background: #4bd8fb;
-background: -webkit-linear-gradient(to right, #4bd8fb, #0491b4);
-background: linear-gradient(to right,  #4bd8fb, #0491b4);
-height: 100vh;/*Pilas el vh es muy importante:Recordar*/
-display: flex;
-align-items: center;
-justify-content: center;
-
-}
-
-.content{
-	max-width: 1000px;
-	max-height: 930px;
-	width: 100%;
-	height: 100%;
-	background-color: #F0F8FF;
-	/*box-shadow : diferenciaHorizontal diferenciaVertical desenfoque amplitud color*/
-	box-shadow: 0 3px 6px #000;	
-	/*	box-shadow: 0 3px 6px rgba(0,0,0,0,16), 0 3px 6px rgba(0,0,0,0,23);
-*/
-	border-radius: 4px;
-}
 
 .encabezado-Index{
 	background-color: #4bd8fb;
@@ -102,11 +110,24 @@ justify-content: center;
 	padding-bottom: 1em; 
 	border-bottom:  solid 2px #4bd8fb ;
 	padding: 16px;
+	height: 100px;
+
 
 }
 
 .title-Index{
-font-family: 'Titan One', cursive;
+	font-family: 'Titan One', cursive;
+	padding-bottom: 1em; 
+	/*border-bottom:  solid 2px #4bd8fb ;*/
+	max-width: 960px;
+	max-height: 200px;
+	width: 100%;
+	height: 100%;
+	margin: 0em auto 0em;
+	
+
+
+
 }
 
 ul {
@@ -134,47 +155,28 @@ li a:hover:not(.active) {
 }
 
 .active {
-    background-color: #4CAF50;
+    background-color: #4bd8fb;
 }
 .barra-Index{
 	/*width: 50%;
 	padding-right:  1em;
 	border-radius: 4px;*/
 	float: right;
-	margin: 3em auto 0em;
+	margin: 0em auto 0em;
+	
+}
+
+
+///////////////////////////////////////////
+
+.header {
+background-color: #4bd8fb;
+background: #4bd8fb;
+background: -webkit-linear-gradient(to right, #4bd8fb, #0491b4);
+background: linear-gradient(to right,  #4bd8fb, #0491b4);
 
 }
 
-.titulo {
-    tamaño de fuente :  40 px ;
-    familia de fuentes :  'Dancing Script' , cursiva;
-    margen inferior :  40 px ;
-    color :  # fff ;
-}
 
-.subtítulo {
-    margen :  0 ;
-    color :  # 000 ;
-    pantalla : en línea;
-    tamaño de fuente :  50 px ;
-    peso de fuente :  500 ;
-    transformación de texto : mayúsculas;
-}
-
-.sabor {
-    color :  # fff ;
-    margen :  7 px  0 ;
-    tamaño de fuente :  50 px ;
-    peso de fuente :  600 ;
-    texto-sombra :  2 px  2 px  1 px  rgba ( 0 , 0 , 0 , 0.7 );
-    familia de fuentes :  'Dancing Script' , cursiva;
-    margen superior :  0 ;
-}
-
-.linea-division {
-    ancho :  80 % ;
-    altura :  2 px ;
-    color de fondo :  # 36221c ;
-} 
 
 
