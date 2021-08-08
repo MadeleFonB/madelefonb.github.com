@@ -177,6 +177,19 @@ background: linear-gradient(to right,  #4bd8fb, #0491b4);
 
 }
 
+.main-image{
+	max-width: 20%;
+	max-height: 10%;
+	height: 50%;
+	width: 100%;
+	background-color: #F0F8FF;
+	box-shadow: 0 3px 6px #000;	
+	border-radius: 4px;
+	padding-top: 1em;
+}
 
+.paragraph{
+	
+}
 
 
